@@ -183,7 +183,7 @@ class Game extends eui.Component {
 			if (grid.y != gy) {
 				// u.Tool.trace("dest", dest);
 				Grid.isMove = true;
-				u.Tool.trace(`time_${time}`);
+				// u.Tool.trace(`time_${time}`);
 				egret.Tween.get(grid).to({ y: gy }, time).call(() => {
 					Grid.isMove = false;
 					grid.gridY = gridY;

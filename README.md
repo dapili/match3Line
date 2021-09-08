@@ -1,2 +1,4 @@
-# 三消游戏
-### 连线三消，玩法简单
+# match3Line
+连线三消demo  
+egret 5.2.23  
+![gif](match3Line.gif "gif")
